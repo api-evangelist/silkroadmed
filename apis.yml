@@ -1,8 +1,23 @@
 aid: silkroadmed
-name: Silkroadmed
-description: 'Silkroadmed is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silkroadmed.png
+name: Silk Road Medical
+description: 'Silk Road Medical is a medical device company (Plymouth, Minnesota) that pioneered TransCarotid
+  Artery Revascularization (TCAR), a minimally invasive procedure for treating carotid artery disease
+  and reducing stroke risk. Its enRoute Transcarotid Neuroprotection System and enRoute Transcarotid Stent
+  are physician-use devices, not a software or platform product. The company is now part of Boston Scientific.
+  It was surfaced as a portfolio company of norwest-venture-partners; research finds no developer portal,
+  public API, SDK, or machine-readable interface, so this remains a company profile rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/silkroadmed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,18 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Medical Devices
+- Healthcare
+- Medical Technology
+- Cardiovascular
+- Vascular
+- Stroke Prevention
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://silkroadmed.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
